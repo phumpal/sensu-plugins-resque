@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
   s.version                = SensuPluginsResque::Version::VER_STRING
 
-  s.add_runtime_dependency 'resque',       '1.25.2'
+  s.add_runtime_dependency 'resque',       '= 1.27.4'
   s.add_runtime_dependency 'sensu-plugin', '~> 1.2'
 
   s.add_development_dependency 'bundler',                   '~> 1.7'
